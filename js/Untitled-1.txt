@@ -1,0 +1,46 @@
+<EjbTransaction systemevent="sumadoresDeColumnas" module="FrontEndUtilsModule" front="lin" dblogicalname="UNIX-SIDERAR">
+<Fields>
+<Field name="parametroString1" datatype="String" direction="Input" ordinal="1" />
+<Field name="parametroString2" datatype="String" direction="Input" ordinal="2" />
+<Field name="parametroString3" datatype="String" direction="Input" ordinal="3" />
+<Field name="parametroString4" datatype="String" direction="Input" ordinal="4" />
+</Fields>
+<Tables>
+<Table name="columnas" direction="Input" ordinal="5">
+<Columns>
+<Column name="columna1" datatype="String" />
+<Column name="columna10" datatype="String" />
+<Column name="columna2" datatype="String" />
+<Column name="columna3" datatype="String" />
+<Column name="columna4" datatype="String" />
+<Column name="columna5" datatype="String" />
+<Column name="columna6" datatype="String" />
+<Column name="columna7" datatype="String" />
+<Column name="columna8" datatype="String" />
+<Column name="columna9" datatype="String" />
+</Columns>
+</Table>
+<Table name="resultadoParametros" direction="Output" ordinal="6">
+<Columns>
+<Column name="resultadoParametroString1" datatype="String" />
+<Column name="resultadoParametroString2" datatype="String" />
+<Column name="resultadoParametroString3" datatype="String" />
+<Column name="resultadoParametroString4" datatype="String" />
+</Columns>
+</Table>
+<Table name="resultadoSumas" direction="Output" ordinal="7">
+<Columns>
+<Column name="sumaColumna1" datatype="String" />
+<Column name="sumaColumna10" datatype="String" />
+<Column name="sumaColumna2" datatype="String" />
+<Column name="sumaColumna3" datatype="String" />
+<Column name="sumaColumna4" datatype="String" />
+<Column name="sumaColumna5" datatype="String" />
+<Column name="sumaColumna6" datatype="String" />
+<Column name="sumaColumna7" datatype="String" />
+<Column name="sumaColumna8" datatype="String" />
+<Column name="sumaColumna9" datatype="String" />
+</Columns>
+</Table>
+</Tables>
+</EjbTransaction>
